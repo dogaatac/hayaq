@@ -1,6 +1,0 @@
-rclone mount ac:/56/ /mnt/56/ --drive-service-account-file /root/56.json --vfs-read-chunk-size 64k --vfs-cache-max-size 1G --transfers 128 --checkers 256 --drive-pacer-min-sleep 1ms --drive-pacer-burst 200 --poll-interval 224h --vfs-cache-mode full --dir-cache-time 1000000h --vfs-cache-max-age 1000000h --vfs-cache-poll-interval 33332m --max-read-ahead 128k --vfs-read-ahead 32k --vfs-read-wait 0 --buffer-size off --vfs-read-chunk-size-limit 32k --no-check-dest --no-checksum --no-modtime --no-traverse --read-only --daemon
-sleep 2
-rclone mount ac:/57/ /mnt/57/ --drive-service-account-file /root/57.json --vfs-read-chunk-size 64k --vfs-cache-max-size 1G --transfers 128 --checkers 256 --drive-pacer-min-sleep 1ms --drive-pacer-burst 200 --poll-interval 224h --vfs-cache-mode full --dir-cache-time 1000000h --vfs-cache-max-age 1000000h --vfs-cache-poll-interval 33332m --max-read-ahead 128k --vfs-read-ahead 32k --vfs-read-wait 0 --buffer-size off --vfs-read-chunk-size-limit 32k --no-check-dest --no-checksum --no-modtime --no-traverse --read-only --daemon
-sleep 2
-cd /mnt
-du -h
